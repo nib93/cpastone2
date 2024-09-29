@@ -9,7 +9,7 @@ var cors=require("cors");
 //import 'dotenv/config';
 require('dotenv').config();
 
-const url ='mongodb://localhost:27017/myHike'|| process.env.DATABASE_URL;
+const url =process.env.DATABASE_URL ||'mongodb://localhost:27017/myHike';
 const connect = mongoose.connect(url, {
   useCreateIndex: true,
   useFindAndModify: false,
