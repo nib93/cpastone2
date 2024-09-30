@@ -31,6 +31,19 @@ National Parks and Service-api: https://developer.nps.gov/api/v1
 4. Rate and review trails based on your hiking experience.
 5. Update your profile information and manage your account settings.
 
+## Pages:
+- **Home**: This is the Home page. It has news letter sign up feature. This pge also displays featured trails on this page. On clicking on this trail, user can see the details of the tral. Also user can visit about us page from here.
+- **Trails**: User can search the trail based  on state, city. User can see list of the trails and clicking on  one of the trail user can see the detail of the trail like trail name, location, difficulty level, length, elevation gain, and description.Also user can se the rating and comment of it. 
+- **Safety**: User can see the safty information regarding the trail. This information is fatched from national parks and service api.
+- **About**: This page represent the information About us.
+- **Contact**: User can fill the form if any query.
+- **Login**: USer can Login.
+
+## Deployment URL: 
+https://cpastone2-front.onrender.com/
+
+## Working Website Video: 
+
 ## Future Enhancements
 
 - **Favorite Trails**: Allow users to save trails as favorites for quick access.
